@@ -35,10 +35,9 @@ const auth = require("./auth");
 const socketManager = require("./server-socket");
 
 // Server configuration below
-// TODO change connection URL after setting up your team database
-const mongoConnectionURL = process.env.MONGO_SRV;
+const mongoConnectionURL = "mongodb+srv://cCarbonell:C0mplex1!@loavesandfishes.g6bo4te.mongodb.net/?retryWrites=true&w=majority&appName=LoavesAndFishes";
 // TODO change database name to the name you chose
-const databaseName = "FILL_ME_IN";
+const databaseName = "Apps-For-Good-Food-Bank";
 
 // mongoose 7 warning
 mongoose.set("strictQuery", false);
